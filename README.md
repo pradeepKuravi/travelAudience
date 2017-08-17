@@ -1,5 +1,5 @@
 # travelAudience
-R Script For TA interview challenge
+R Script For Travel Audience interview challenge
 
 To run this script follow bellow 3 steps:
 
