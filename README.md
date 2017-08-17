@@ -9,7 +9,7 @@ To run this script follow bellow 3 steps:
 R for windows: 
 https://cran.r-project.org/bin/windows/base/
 
-# 2. Storing the files in the disk 
+# 2. Storing files to the disk 
 Make sure Rscript(TA_Challenge.R) and Data(logs.csv) files are in the same folder.
 
 # 3. Run below line in command-promt/terminal
