@@ -1,8 +1,8 @@
 # ---
 # Title: "Travel Audience Challenge"
 # Author : "Pradeep Kuravi"
-# Output :Pdf document
-# Date: 17/08/2017
+# Output :CSV file
+# Date: 18/08/2017
 # ---
 
 args <- commandArgs(TRUE)
@@ -68,7 +68,6 @@ Iptable = data.frame(table(UniquePerIp$uuid))
 IpMultipleLocations = Iptable[Iptable$Var1 %in% Iptable$Var1[Iptable$Freq > 1],1]
 # Writing True if the User has entry from more than one location
 FinalUsers$multiple_locations = FinalUsers$uuid %in% IpMultipleLocations
-
 
 ## Saving the results in csv format
 write.csv(FinalUsers, file = args[2])
