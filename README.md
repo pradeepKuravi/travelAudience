@@ -9,6 +9,9 @@ To run the script from command prompt follow these 3 steps:
 R for windows: 
 https://cran.r-project.org/bin/windows/base/
 
+R for Mac OX:
+https://cran.r-project.org/bin/macosx/
+
 # 2. Storing files to the disk 
 Make sure Rscript(TA_Challenge.R) and Data(logs.csv) files are in the same folder.
 
