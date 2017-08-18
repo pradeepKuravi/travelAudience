@@ -72,8 +72,8 @@ FinalUsers$multiple_locations = FinalUsers$uuid %in% IpMultipleLocations
 
 ## Saving the results in csv format
 write.csv(FinalUsers, file = args[2])
-print(paste("Number of Users active on multiple days", length(FinalUsers[FinalUsers$multiple_days == TRUE])))
-print(paste("Number of Users traffic occured during weedday business hour (9am to 5pm)", length(FinalUsers[FinalUsers$weekday_biz == TRUE])))
-print(paste("Number of Users active from multiple locations", length(FinalUsers[FinalUsers$multiple_locations == TRUE])))
+print(paste("Number of Users active on multiple days:", length(FinalUsers[FinalUsers$multiple_days == TRUE])))
+print(paste("Number of Users traffic occured during weedday business hour (9am to 5pm):", length(FinalUsers[FinalUsers$weekday_biz == TRUE])))
+print(paste("Number of Users active from multiple locations:", length(FinalUsers[FinalUsers$multiple_locations == TRUE])))
 
 
