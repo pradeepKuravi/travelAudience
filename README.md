@@ -1,7 +1,7 @@
 # travelAudience
 R Script For Travel Audience interview challenge
 
-To run this script follow bellow 3 steps:
+To run the script from command prompt follow these 3 steps:
 
 # 1. Installation of R
  If R is not installed in the computer. You can install it from the following link 
