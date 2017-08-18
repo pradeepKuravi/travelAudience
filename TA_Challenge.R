@@ -9,7 +9,7 @@ args <- commandArgs(TRUE)
 if(length(args) == 1){
   args[2] = "output.csv"
 }else if (length(args) ==0){
-  print("Enter atleast input argument")
+  print("Enter atleast one input argument")
 }
 
 # Loading the data - Enter the path ----
