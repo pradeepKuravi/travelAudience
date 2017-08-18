@@ -13,6 +13,6 @@ https://cran.r-project.org/bin/windows/base/
 Make sure Rscript(TA_Challenge.R) and Data(logs.csv) files are in the same folder.
 
 # 3. Run below line in command-promt/terminal
-cd _'path were files are saved'_
+__cd__ _'path were files are saved'_
 
-Rscript TA_Challenge.R logs.csv output.csv
+__Rscript TA_Challenge.R logs.csv output.csv__
